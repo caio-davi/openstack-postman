@@ -14,7 +14,7 @@
 				{
 					"name": "Show version details",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v2.0",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v2.0",
 						"method": "GET",
 						"header": [
 							{
@@ -34,7 +34,7 @@
 				{
 					"name": "List versions",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/",
 						"method": "GET",
 						"header": [
 							{
@@ -69,7 +69,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v2.0/extensions/{{extension_alias}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v2.0/extensions/{{extension_alias}}",
 						"method": "GET",
 						"header": [
 							{
@@ -89,7 +89,7 @@
 				{
 					"name": "List extensions",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v2.0/extensions",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v2.0/extensions",
 						"method": "GET",
 						"header": [
 							{
@@ -115,7 +115,7 @@
 				{
 					"name": "List tenants",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v2.0/tenants",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v2.0/tenants",
 						"method": "GET",
 						"header": [
 							{
@@ -144,7 +144,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v2.0/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v2.0/tokens",
 						"method": "POST",
 						"header": [
 							{

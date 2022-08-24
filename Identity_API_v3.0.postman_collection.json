@@ -14,7 +14,7 @@
 				{
 					"name": "Password authentication with unscoped authorization",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -34,7 +34,7 @@
 				{
 					"name": "Password authentication with scoped authorization",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -54,7 +54,7 @@
 				{
 					"name": "Password authentication with explicit unscoped authorization",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -74,7 +74,7 @@
 				{
 					"name": "Token authentication with unscoped authorization",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -94,7 +94,7 @@
 				{
 					"name": "Token authentication with scoped authorization",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -114,7 +114,7 @@
 				{
 					"name": "Validate and show information for token",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "GET",
 						"header": [
 							{
@@ -139,7 +139,7 @@
 				{
 					"name": "Check token",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "HEAD",
 						"header": [
 							{
@@ -164,7 +164,7 @@
 				{
 					"name": "Revoke token",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "DELETE",
 						"header": [
 							{
@@ -189,7 +189,7 @@
 				{
 					"name": "Get service catalog",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/catalog",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/catalog",
 						"method": "GET",
 						"header": [
 							{
@@ -214,7 +214,7 @@
 				{
 					"name": "Get available project scopes",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/projects",
 						"method": "GET",
 						"header": [
 							{
@@ -239,7 +239,7 @@
 				{
 					"name": "Get available domain scopes",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/domains",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/domains",
 						"method": "GET",
 						"header": [
 							{
@@ -279,7 +279,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/credentials",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/credentials",
 						"method": "POST",
 						"header": [
 							{
@@ -304,7 +304,7 @@
 				{
 					"name": "List credentials",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/credentials",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/credentials",
 						"method": "GET",
 						"header": [
 							{
@@ -333,7 +333,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/credentials/{{credential_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/credentials/{{credential_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -362,7 +362,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/credentials/{{credential_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/credentials/{{credential_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -396,7 +396,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/credentials/{{credential_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/credentials/{{credential_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -422,7 +422,7 @@
 				{
 					"name": "List domains",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains",
 						"method": "GET",
 						"header": [
 							{
@@ -451,7 +451,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains",
 						"method": "POST",
 						"header": [
 							{
@@ -485,7 +485,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -514,7 +514,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -548,7 +548,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -574,7 +574,7 @@
 				{
 					"name": "Show default configuration settings  detail",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/config/default",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/config/default",
 						"method": "GET",
 						"header": [
 							{
@@ -603,7 +603,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/config/{{group_id}}/default",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/config/{{group_id}}/default",
 						"method": "GET",
 						"header": [
 							{
@@ -632,7 +632,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/config/{{groupid}}/{{option}}/default",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/config/{{groupid}}/{{option}}/default",
 						"method": "GET",
 						"header": [
 							{
@@ -661,7 +661,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}/{{option}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}/{{option}}",
 						"method": "GET",
 						"header": [
 							{
@@ -690,7 +690,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}/{{option}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}/{{option}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -724,7 +724,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}/{{option}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}/{{option}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -753,7 +753,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -782,7 +782,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -816,7 +816,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config/{{group_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -845,7 +845,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
 						"method": "PUT",
 						"header": [
 							{
@@ -879,7 +879,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
 						"method": "GET",
 						"header": [
 							{
@@ -908,7 +908,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
 						"method": "PATCH",
 						"header": [
 							{
@@ -942,7 +942,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domains/{{domain_id}}/config",
 						"method": "DELETE",
 						"header": [
 							{
@@ -977,7 +977,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1006,7 +1006,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -1040,7 +1040,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1069,7 +1069,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users/{{user_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users/{{user_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1098,7 +1098,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users/{{user_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users/{{user_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1127,7 +1127,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users/{{user_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users/{{user_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -1156,7 +1156,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups/{{group_id}}/users",
 						"method": "GET",
 						"header": [
 							{
@@ -1185,7 +1185,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups",
 						"method": "POST",
 						"header": [
 							{
@@ -1210,7 +1210,7 @@
 				{
 					"name": "List groups",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/groups",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/groups",
 						"method": "GET",
 						"header": [
 							{
@@ -1245,7 +1245,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "PUT",
 						"header": [
 							{
@@ -1274,7 +1274,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "PUT",
 						"header": [
 							{
@@ -1303,7 +1303,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/inherited_to_projects",
 						"method": "GET",
 						"header": [
 							{
@@ -1332,7 +1332,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/inherited_to_projects",
 						"method": "GET",
 						"header": [
 							{
@@ -1361,7 +1361,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "HEAD",
 						"header": [
 							{
@@ -1390,7 +1390,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "HEAD",
 						"header": [
 							{
@@ -1419,7 +1419,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1448,7 +1448,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/domains/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1477,7 +1477,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "PUT",
 						"header": [
 							{
@@ -1506,7 +1506,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "PUT",
 						"header": [
 							{
@@ -1535,7 +1535,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/inherited_to_projects",
 						"method": "GET",
 						"header": [
 							{
@@ -1564,7 +1564,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/inherited_to_projects",
 						"method": "GET",
 						"header": [
 							{
@@ -1593,7 +1593,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "HEAD",
 						"header": [
 							{
@@ -1622,7 +1622,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "HEAD",
 						"header": [
 							{
@@ -1651,7 +1651,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1680,7 +1680,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-INHERIT/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}/inherited_to_projects",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1700,7 +1700,7 @@
 				{
 					"name": "List effective role assignments",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/role_assignments",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/role_assignments",
 						"method": "GET",
 						"header": [
 							{
@@ -1735,7 +1735,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies",
 						"method": "POST",
 						"header": [
 							{
@@ -1760,7 +1760,7 @@
 				{
 					"name": "List policies",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies",
 						"method": "GET",
 						"header": [
 							{
@@ -1789,7 +1789,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1818,7 +1818,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -1852,7 +1852,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1878,7 +1878,7 @@
 				{
 					"name": "List Projects",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects",
 						"method": "GET",
 						"header": [
 							{
@@ -1907,7 +1907,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects",
 						"method": "POST",
 						"header": [
 							{
@@ -1941,7 +1941,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects",
 						"method": "POST",
 						"header": [
 							{
@@ -1975,7 +1975,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2004,7 +2004,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -2038,7 +2038,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2067,7 +2067,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/cascade",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/cascade",
 						"method": "PATCH",
 						"header": [
 							{
@@ -2101,7 +2101,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/cascade",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/cascade",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2136,7 +2136,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/regions/{{region_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/regions/{{region_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2165,7 +2165,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/regions/{{region_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/regions/{{region_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -2199,7 +2199,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/regions/{{region_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/regions/{{region_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2219,7 +2219,7 @@
 				{
 					"name": "List Regions",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/regions",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/regions",
 						"method": "GET",
 						"header": [
 							{
@@ -2248,7 +2248,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/regions",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/regions",
 						"method": "POST",
 						"header": [
 							{
@@ -2288,7 +2288,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2317,7 +2317,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -2346,7 +2346,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles/{{role_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2375,7 +2375,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2404,7 +2404,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -2433,7 +2433,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles/{{role_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2462,7 +2462,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/users/{{user_id}}/roles",
 						"method": "GET",
 						"header": [
 							{
@@ -2491,7 +2491,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{project_id}}/groups/{{group_id}}/roles",
 						"method": "GET",
 						"header": [
 							{
@@ -2520,7 +2520,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2549,7 +2549,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -2578,7 +2578,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles/{{role_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2607,7 +2607,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/users/{{user_id}}/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/users/{{user_id}}/roles",
 						"method": "GET",
 						"header": [
 							{
@@ -2627,7 +2627,7 @@
 				{
 					"name": "List Roles [Check]",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles",
 						"method": "GET",
 						"header": [
 							{
@@ -2656,7 +2656,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles",
 						"method": "POST",
 						"header": [
 							{
@@ -2690,7 +2690,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domain/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domain/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2719,7 +2719,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domain/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domain/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -2748,7 +2748,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/domain/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/domain/{{domain_id}}/users/{{user_id}}/roles/{{role_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2777,7 +2777,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/projects/{{domain_id}}/groups/{{group_id}}/roles",
 						"method": "GET",
 						"header": [
 							{
@@ -2797,7 +2797,7 @@
 				{
 					"name": "List role assignments",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/role_assignments",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/role_assignments",
 						"method": "GET",
 						"header": [
 							{
@@ -2826,7 +2826,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{role_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2855,7 +2855,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{role_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2889,7 +2889,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{role_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2918,7 +2918,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies",
 						"method": "GET",
 						"header": [
 							{
@@ -2947,7 +2947,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2976,7 +2976,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3005,7 +3005,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -3034,7 +3034,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/roles/{{prior_role_id}}/implies/{{implies_role_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3054,7 +3054,7 @@
 				{
 					"name": "List all role inference rules",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/role_inferences",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/role_inferences",
 						"method": "GET",
 						"header": [
 							{
@@ -3080,7 +3080,7 @@
 				{
 					"name": "List services",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/services",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/services",
 						"method": "GET",
 						"header": [
 							{
@@ -3109,7 +3109,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/services",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/services",
 						"method": "POST",
 						"header": [
 							{
@@ -3143,7 +3143,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3172,7 +3172,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -3206,7 +3206,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3226,7 +3226,7 @@
 				{
 					"name": "List endpoints",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/endpoints",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/endpoints",
 						"method": "GET",
 						"header": [
 							{
@@ -3255,7 +3255,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/endpoints",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/endpoints",
 						"method": "POST",
 						"header": [
 							{
@@ -3289,7 +3289,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/services/{{service_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/services/{{service_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3318,7 +3318,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/services/{{service_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/services/{{service_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -3352,7 +3352,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/services/{{service_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/services/{{service_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3387,7 +3387,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3416,7 +3416,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -3450,7 +3450,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3479,7 +3479,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/groups",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/groups",
 						"method": "GET",
 						"header": [
 							{
@@ -3508,7 +3508,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/password",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/password",
 						"method": "POST",
 						"header": [
 							{
@@ -3542,7 +3542,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users",
 						"method": "POST",
 						"header": [
 							{
@@ -3567,7 +3567,7 @@
 				{
 					"name": "List users",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users",
 						"method": "GET",
 						"header": [
 							{
@@ -3596,7 +3596,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/projects",
 						"method": "GET",
 						"header": [
 							{

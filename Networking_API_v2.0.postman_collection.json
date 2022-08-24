@@ -14,7 +14,7 @@
 				{
 					"name": "Show API v2 details",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0",
 						"method": "GET",
 						"header": [
 							{
@@ -39,7 +39,7 @@
 				{
 					"name": "List API versions",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/",
 						"method": "GET",
 						"header": [
 							{
@@ -70,7 +70,7 @@
 				{
 					"name": "List extensions",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/extensions",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/extensions",
 						"method": "GET",
 						"header": [
 							{
@@ -104,7 +104,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/extensions/{{alias}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/extensions/{{alias}}",
 						"method": "GET",
 						"header": [
 							{
@@ -144,7 +144,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}/insert_rule",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}/insert_rule",
 						"method": "PUT",
 						"header": [
 							{
@@ -178,7 +178,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -212,7 +212,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -246,7 +246,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -271,7 +271,7 @@
 				{
 					"name": "List firewall policies",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies",
 						"method": "GET",
 						"header": [
 							{
@@ -305,7 +305,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies",
 						"method": "POST",
 						"header": [
 							{
@@ -339,7 +339,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -373,7 +373,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -407,7 +407,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -441,7 +441,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -475,7 +475,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -509,7 +509,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules/{{firewall_rule_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -543,7 +543,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules",
 						"method": "GET",
 						"header": [
 							{
@@ -577,7 +577,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_rules",
 						"method": "POST",
 						"header": [
 							{
@@ -602,7 +602,7 @@
 				{
 					"name": "List firewalls",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewalls",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewalls",
 						"method": "GET",
 						"header": [
 							{
@@ -636,7 +636,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewalls",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewalls",
 						"method": "POST",
 						"header": [
 							{
@@ -670,7 +670,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}/remove_rule",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/fw/firewall_policies/{{firewall_policy_id}}/remove_rule",
 						"method": "PUT",
 						"header": [
 							{
@@ -710,7 +710,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/network-ip-availabilities/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/network-ip-availabilities/{{network_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -749,7 +749,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/floatingips",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/floatingips",
 						"method": "POST",
 						"header": [
 							{
@@ -783,7 +783,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/floatingips/{{floatingip_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/floatingips/{{floatingip_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -822,7 +822,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -858,7 +858,7 @@
 				{
 					"name": "List load balancers",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers",
 						"method": "GET",
 						"header": [
 							{
@@ -892,7 +892,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers",
 						"method": "POST",
 						"header": [
 							{
@@ -926,7 +926,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -960,7 +960,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -994,7 +994,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1028,7 +1028,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}/statuses",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/loadbalancers/{{loadbalancer_id}}/statuses",
 						"method": "GET",
 						"header": [
 							{
@@ -1062,7 +1062,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners",
 						"method": "GET",
 						"header": [
 							{
@@ -1096,7 +1096,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners",
 						"method": "POST",
 						"header": [
 							{
@@ -1130,7 +1130,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners/{{listener_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners/{{listener_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1164,7 +1164,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners/{{listener_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners/{{listener_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1198,7 +1198,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners/{{listener_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/listeners/{{listener_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1223,7 +1223,7 @@
 				{
 					"name": "List pools",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools",
 						"method": "GET",
 						"header": [
 							{
@@ -1257,7 +1257,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools",
 						"method": "POST",
 						"header": [
 							{
@@ -1291,7 +1291,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1325,7 +1325,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1359,7 +1359,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1393,7 +1393,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members",
 						"method": "GET",
 						"header": [
 							{
@@ -1427,7 +1427,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members",
 						"method": "POST",
 						"header": [
 							{
@@ -1461,7 +1461,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members/{{member_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members/{{member_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1495,7 +1495,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members/{{member_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members/{{member_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1529,7 +1529,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members/{{member_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/pools/{{pool_id}}/members/{{member_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1554,7 +1554,7 @@
 				{
 					"name": "List health monitors",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors",
 						"method": "GET",
 						"header": [
 							{
@@ -1588,7 +1588,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors",
 						"method": "POST",
 						"header": [
 							{
@@ -1622,7 +1622,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors/{{health_monitor_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors/{{health_monitor_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1656,7 +1656,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors/{{health_monitor_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors/{{health_monitor_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1690,7 +1690,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors/{{health_monitor_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/lbaas/health_monitors/{{health_monitor_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1730,7 +1730,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels",
 						"method": "GET",
 						"header": [
 							{
@@ -1764,7 +1764,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels",
 						"method": "POST",
 						"header": [
 							{
@@ -1798,7 +1798,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels/{{metering-label-id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels/{{metering-label-id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1832,7 +1832,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels/{{metering-label-id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-labels/{{metering-label-id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1857,7 +1857,7 @@
 				{
 					"name": "List metering label rules",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules",
 						"method": "GET",
 						"header": [
 							{
@@ -1891,7 +1891,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules",
 						"method": "POST",
 						"header": [
 							{
@@ -1925,7 +1925,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules/{{metering-label-rule-id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules/{{metering-label-rule-id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1959,7 +1959,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules/{{metering-label-rule-id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/metering/metering-label-rules/{{metering-label-rule-id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1999,7 +1999,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/network-ip-availabilities/{network_id}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/network-ip-availabilities/{network_id}",
 						"method": "GET",
 						"header": [
 							{
@@ -2029,7 +2029,7 @@
 				{
 					"name": "List Network IP Availability",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/network-ip-availabilities",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/network-ip-availabilities",
 						"method": "GET",
 						"header": [
 							{
@@ -2074,7 +2074,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/flavors/{{flavor_id}}/service_profiles/{{profile_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/flavors/{{flavor_id}}/service_profiles/{{profile_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2108,7 +2108,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/service_profiles/{{profile_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/service_profiles/{{profile_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2142,7 +2142,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/service_profiles/{{profile_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/service_profiles/{{profile_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2176,7 +2176,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/service_profiles/{{profile_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/service_profiles/{{profile_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2201,7 +2201,7 @@
 				{
 					"name": "List service profiles",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/service_profiles",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/service_profiles",
 						"method": "GET",
 						"header": [
 							{
@@ -2235,7 +2235,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/service_profiles/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/service_profiles/",
 						"method": "POST",
 						"header": [
 							{
@@ -2260,7 +2260,7 @@
 				{
 					"name": "List flavors",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/flavors",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/flavors",
 						"method": "GET",
 						"header": [
 							{
@@ -2294,7 +2294,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/flavors",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/flavors",
 						"method": "POST",
 						"header": [
 							{
@@ -2328,7 +2328,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/flavors/{{flavor_id}}/service_profiles",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/flavors/{{flavor_id}}/service_profiles",
 						"method": "POST",
 						"header": [
 							{
@@ -2362,7 +2362,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/flavors/{flavor_id}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/flavors/{flavor_id}",
 						"method": "GET",
 						"header": [
 							{
@@ -2396,7 +2396,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/flavors/{flavor_id}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/flavors/{flavor_id}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2430,7 +2430,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/flavors/{flavor_id}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/flavors/{flavor_id}",
 						"method": "GET",
 						"header": [
 							{
@@ -2470,7 +2470,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2504,7 +2504,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2538,7 +2538,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2563,7 +2563,7 @@
 				{
 					"name": "Create network",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/",
 						"method": "POST",
 						"header": [
 							{
@@ -2588,7 +2588,7 @@
 				{
 					"name": "Bulk create networks",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks",
 						"method": "POST",
 						"header": [
 							{
@@ -2628,7 +2628,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2653,7 +2653,7 @@
 				{
 					"name": "List networks with multiple segment mappings",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks",
 						"method": "GET",
 						"header": [
 							{
@@ -2678,7 +2678,7 @@
 				{
 					"name": "Create network with multiple segment mappings",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks",
 						"method": "POST",
 						"header": [
 							{
@@ -2718,7 +2718,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2743,7 +2743,7 @@
 				{
 					"name": "Update network (provider network)",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2777,7 +2777,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2802,7 +2802,7 @@
 				{
 					"name": "List networks (provider network)",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks",
 						"method": "GET",
 						"header": [
 							{
@@ -2836,7 +2836,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks",
 						"method": "POST",
 						"header": [
 							{
@@ -2876,7 +2876,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2910,7 +2910,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2944,7 +2944,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2978,7 +2978,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/",
 						"method": "GET",
 						"header": [
 							{
@@ -3012,7 +3012,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/",
 						"method": "POST",
 						"header": [
 							{
@@ -3037,7 +3037,7 @@
 				{
 					"name": "Bulk create ports",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/",
 						"method": "POST",
 						"header": [
 							{
@@ -3077,7 +3077,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3111,7 +3111,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -3145,7 +3145,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/{{port_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3179,7 +3179,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/",
 						"method": "GET",
 						"header": [
 							{
@@ -3213,7 +3213,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/ports/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/ports/",
 						"method": "POST",
 						"header": [
 							{
@@ -3253,7 +3253,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{{policy_id}}/bandwidth_limit_rules/{{rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{{policy_id}}/bandwidth_limit_rules/{{rule_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3287,7 +3287,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{{policy_id}}/bandwidth_limit_rules/{{rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{{policy_id}}/bandwidth_limit_rules/{{rule_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -3321,7 +3321,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{{policy_id}}/bandwidth_limit_rules/{{rule_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{{policy_id}}/bandwidth_limit_rules/{{rule_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3346,7 +3346,7 @@
 				{
 					"name": "List QoS policies",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies",
 						"method": "GET",
 						"header": [
 							{
@@ -3380,7 +3380,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies",
 						"method": "POST",
 						"header": [
 							{
@@ -3414,7 +3414,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules/{dscp_rule_id}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules/{dscp_rule_id}",
 						"method": "GET",
 						"header": [
 							{
@@ -3448,7 +3448,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules/{dscp_rule_id}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules/{dscp_rule_id}",
 						"method": "PUT",
 						"header": [
 							{
@@ -3482,7 +3482,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules/{dscp_rule_id}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules/{dscp_rule_id}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3516,7 +3516,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules",
 						"method": "GET",
 						"header": [
 							{
@@ -3550,7 +3550,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/dscp_marking_rules",
 						"method": "POST",
 						"header": [
 							{
@@ -3584,7 +3584,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/",
 						"method": "GET",
 						"header": [
 							{
@@ -3618,7 +3618,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/",
 						"method": "PUT",
 						"header": [
 							{
@@ -3652,7 +3652,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3686,7 +3686,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/bandwidth_limit_rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/bandwidth_limit_rules",
 						"method": "GET",
 						"header": [
 							{
@@ -3720,7 +3720,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/bandwidth_limit_rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/qos/policies/{policy_id}/bandwidth_limit_rules",
 						"method": "POST",
 						"header": [
 							{
@@ -3751,7 +3751,7 @@
 				{
 					"name": "List quotas for tenants with non-default quota values",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/quotas",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/quotas",
 						"method": "GET",
 						"header": [
 							{
@@ -3785,7 +3785,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/quotas/{{tenant_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/quotas/{{tenant_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3819,7 +3819,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/quotas/{{tenant_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/quotas/{{tenant_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -3853,7 +3853,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/quotas/{{tenant_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/quotas/{{tenant_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3884,7 +3884,7 @@
 				{
 					"name": "List routers",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/routers",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/routers",
 						"method": "GET",
 						"header": [
 							{
@@ -3918,7 +3918,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/routers",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/routers",
 						"method": "POST",
 						"header": [
 							{
@@ -3952,7 +3952,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -3986,7 +3986,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -4020,7 +4020,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4054,7 +4054,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}/add_router_interface",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}/add_router_interface",
 						"method": "PUT",
 						"header": [
 							{
@@ -4088,7 +4088,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}/remove_router_interface",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/routers/{{router_id}}/remove_router_interface",
 						"method": "PUT",
 						"header": [
 							{
@@ -4128,7 +4128,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4162,7 +4162,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -4196,7 +4196,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-groups/{{security_group_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4230,7 +4230,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-groups",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-groups",
 						"method": "GET",
 						"header": [
 							{
@@ -4264,7 +4264,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-groups",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-groups",
 						"method": "POST",
 						"header": [
 							{
@@ -4304,7 +4304,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-group-rules/{{security-group-rules-id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-group-rules/{{security-group-rules-id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4338,7 +4338,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-group-rules/{{security-group-rules-id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-group-rules/{{security-group-rules-id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4363,7 +4363,7 @@
 				{
 					"name": "List security group rules",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-group-rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-group-rules",
 						"method": "GET",
 						"header": [
 							{
@@ -4397,7 +4397,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/security-group-rules",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/security-group-rules",
 						"method": "POST",
 						"header": [
 							{
@@ -4428,7 +4428,7 @@
 				{
 					"name": "List service providers",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/service-providers",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/service-providers",
 						"method": "GET",
 						"header": [
 							{
@@ -4468,7 +4468,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnetpools/{{subnetpool_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnetpools/{{subnetpool_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4502,7 +4502,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnetpools/{{subnetpool_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnetpools/{{subnetpool_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -4536,7 +4536,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnetpools/{{subnetpool_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnetpools/{{subnetpool_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4561,7 +4561,7 @@
 				{
 					"name": "List subnet pools",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnetpools",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnetpools",
 						"method": "GET",
 						"header": [
 							{
@@ -4586,7 +4586,7 @@
 				{
 					"name": "List subnet pools copy",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnetpools",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnetpools",
 						"method": "POST",
 						"header": [
 							{
@@ -4617,7 +4617,7 @@
 				{
 					"name": "List subnets",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnets",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnets",
 						"method": "GET",
 						"header": [
 							{
@@ -4651,7 +4651,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnets",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnets",
 						"method": "POST",
 						"header": [
 							{
@@ -4676,7 +4676,7 @@
 				{
 					"name": "Bulk create subnet",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnets",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnets",
 						"method": "POST",
 						"header": [
 							{
@@ -4710,7 +4710,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnets/{{subnet_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnets/{{subnet_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4744,7 +4744,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnets/{{subnet_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnets/{{subnet_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -4778,7 +4778,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/subnets/{{subnet_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/subnets/{{subnet_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4818,7 +4818,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags",
 						"method": "PUT",
 						"header": [
 							{
@@ -4852,7 +4852,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4886,7 +4886,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags/{{tag}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags/{{tag}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4920,7 +4920,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags/{{tag}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags/{{tag}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -4954,7 +4954,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags/{{tag}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/{{resource_type}}/{{resource_id}}/tags/{{tag}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4994,7 +4994,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks/{{network_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -5019,7 +5019,7 @@
 				{
 					"name": "List networks with VLAN transparency attribute",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks",
 						"method": "GET",
 						"header": [
 							{
@@ -5053,7 +5053,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/networks",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/networks",
 						"method": "POST",
 						"header": [
 							{
@@ -5093,7 +5093,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies",
 						"method": "POST",
 						"header": [
 							{
@@ -5118,7 +5118,7 @@
 				{
 					"name": "List IKE policies",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies",
 						"method": "GET",
 						"header": [
 							{
@@ -5152,7 +5152,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections",
 						"method": "POST",
 						"header": [
 							{
@@ -5177,7 +5177,7 @@
 				{
 					"name": "List IPSec connections",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections",
 						"method": "GET",
 						"header": [
 							{
@@ -5211,7 +5211,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections/{{connection_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections/{{connection_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -5245,7 +5245,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections/{{connection_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections/{{connection_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -5279,7 +5279,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections/{{connection_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsec-site-connections/{{connection_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -5304,7 +5304,7 @@
 				{
 					"name": "Create VPN endpoint group",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups",
 						"method": "POST",
 						"header": [
 							{
@@ -5329,7 +5329,7 @@
 				{
 					"name": "List VPN endpoint groups",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups",
 						"method": "GET",
 						"header": [
 							{
@@ -5354,7 +5354,7 @@
 				{
 					"name": "List VPN services",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices",
 						"method": "GET",
 						"header": [
 							{
@@ -5388,7 +5388,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices",
 						"method": "POST",
 						"header": [
 							{
@@ -5422,7 +5422,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices/{{service_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices/{{service_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -5456,7 +5456,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices/{{service_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices/{{service_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -5490,7 +5490,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices/{{service_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/vpnservices/{{service_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -5524,7 +5524,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies/{{ikepolicy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies/{{ikepolicy_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -5558,7 +5558,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies/{{ikepolicy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies/{{ikepolicy_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -5592,7 +5592,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies/{{ikepolicy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ikepolicies/{{ikepolicy_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -5626,7 +5626,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies/{{ipsecpolicy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies/{{ipsecpolicy_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -5660,7 +5660,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies/{{ipsecpolicy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies/{{ipsecpolicy_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -5694,7 +5694,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies/{{ipsecpolicy_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies/{{ipsecpolicy_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -5728,7 +5728,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups/{{endpoint_group_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups/{{endpoint_group_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -5762,7 +5762,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups/{{endpoint_group_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups/{{endpoint_group_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -5796,7 +5796,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups/{{endpoint_group_id}}",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/endpoint-groups/{{endpoint_group_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -5821,7 +5821,7 @@
 				{
 					"name": "Create IPSec policy",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies",
 						"method": "POST",
 						"header": [
 							{
@@ -5846,7 +5846,7 @@
 				{
 					"name": "List IPSec policies",
 					"request": {
-						"url": "http://{{IP}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies",
+						"url": "{{HOST}}:{{NEUTRON_PORT}}/v2.0/vpn/ipsecpolicies",
 						"method": "GET",
 						"header": [
 							{

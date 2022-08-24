@@ -23,7 +23,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints/{{endpoint_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -52,7 +52,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints/{{endpoint_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -81,7 +81,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints/{{endpoint_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -110,7 +110,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -139,7 +139,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -168,7 +168,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -197,7 +197,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/policy",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/policy",
 						"method": "GET",
 						"header": [
 							{
@@ -226,7 +226,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/policy",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/policy",
 						"method": "HEAD",
 						"header": [
 							{
@@ -255,7 +255,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}/regions/{{region_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}/regions/{{region_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -284,7 +284,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}/regions/{{region_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}/regions/{{region_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -313,7 +313,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}/regions/{{region_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/services/{{service_id}}/regions/{{region_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -342,7 +342,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/policies/{{policy_id}}/OS-ENDPOINT-POLICY/endpoints",
 						"method": "GET",
 						"header": [
 							{
@@ -371,7 +371,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}/OS-ENDPOINT-POLICY/policy",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/endpoints/{{endpoint_id}}/OS-ENDPOINT-POLICY/policy",
 						"method": "GET",
 						"header": [
 							{
@@ -406,7 +406,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints/{{endpoint_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -435,7 +435,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints/{{endpoint_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -464,7 +464,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints/{{endpoint_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints/{{endpoint_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -493,7 +493,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoints",
 						"method": "GET",
 						"header": [
 							{
@@ -522,7 +522,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoints/{{endpoint_id}}/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoints/{{endpoint_id}}/projects",
 						"method": "GET",
 						"header": [
 							{
@@ -551,7 +551,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups",
 						"method": "POST",
 						"header": [
 							{
@@ -585,7 +585,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -614,7 +614,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -643,7 +643,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
 						"method": "POST",
 						"header": [
 							{
@@ -677,7 +677,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -697,7 +697,7 @@
 				{
 					"name": "List Endpoint Groups",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups",
 						"method": "GET",
 						"header": [
 							{
@@ -726,7 +726,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -755,7 +755,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -784,7 +784,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -813,7 +813,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects/{{project_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -842,7 +842,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/projects",
 						"method": "GET",
 						"header": [
 							{
@@ -871,7 +871,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/endpoints",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/endpoint_groups/{{endpoint_group_id}}/endpoints",
 						"method": "GET",
 						"header": [
 							{
@@ -900,7 +900,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoint_groups",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-EP-FILTER/projects/{{project_id}}/endpoint_groups",
 						"method": "GET",
 						"header": [
 							{
@@ -935,7 +935,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -960,7 +960,7 @@
 				{
 					"name": "List identity providers",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers",
 						"method": "GET",
 						"header": [
 							{
@@ -989,7 +989,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1018,7 +1018,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1047,7 +1047,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -1081,7 +1081,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1115,7 +1115,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols",
 						"method": "GET",
 						"header": [
 							{
@@ -1144,7 +1144,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1173,7 +1173,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -1207,7 +1207,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1236,7 +1236,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1270,7 +1270,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1299,7 +1299,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -1324,7 +1324,7 @@
 				{
 					"name": "List all mappings",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings",
 						"method": "GET",
 						"header": [
 							{
@@ -1353,7 +1353,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/mappings/{{mapping_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1382,7 +1382,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1407,7 +1407,7 @@
 				{
 					"name": "Listing Service Providers",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers",
 						"method": "GET",
 						"header": [
 							{
@@ -1436,7 +1436,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1465,7 +1465,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1494,7 +1494,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/service_providers/{{provider_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -1519,7 +1519,7 @@
 				{
 					"name": "List projects a federated user can access",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/projects",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/projects",
 						"method": "GET",
 						"header": [
 							{
@@ -1539,7 +1539,7 @@
 				{
 					"name": "List domains a federated user can access",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/domains",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/domains",
 						"method": "GET",
 						"header": [
 							{
@@ -1568,7 +1568,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}/auth",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/identity_providers/{{provider_id}}/protocols/{{protocol_id}}/auth",
 						"method": "GET",
 						"header": [
 							{
@@ -1597,7 +1597,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -1631,7 +1631,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/websso/{{protocol_id}}?origin={{horizon_url}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/websso/{{protocol_id}}?origin={{horizon_url}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1660,7 +1660,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/identity_providers/{{provider_id}}/protocol/{{protocol_id}}/websso?origin={{horizon_url}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/identity_providers/{{provider_id}}/protocol/{{protocol_id}}/websso?origin={{horizon_url}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1689,7 +1689,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/saml2",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/saml2",
 						"method": "POST",
 						"header": [
 							{
@@ -1723,7 +1723,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/saml2/ecp",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/OS-FEDERATION/saml2/ecp",
 						"method": "POST",
 						"header": [
 							{
@@ -1748,7 +1748,7 @@
 				{
 					"name": "Retrieve Metadata properties",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/saml2/metadata",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-FEDERATION/saml2/metadata",
 						"method": "GET",
 						"header": [
 							{
@@ -1783,7 +1783,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers",
 						"method": "POST",
 						"header": [
 							{
@@ -1817,7 +1817,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers/{consumer_id}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers/{consumer_id}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1837,7 +1837,7 @@
 				{
 					"name": "List consumers",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers",
 						"method": "GET",
 						"header": [
 							{
@@ -1866,7 +1866,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers/{{consumer_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers/{{consumer_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1895,7 +1895,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers/{{consumer_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/consumers/{{consumer_id}}",
 						"method": "PATCH",
 						"header": [
 							{
@@ -1929,7 +1929,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/request_token?oauth_consumer_key={{oauth_consumer_key}}&oauth_token={{oauth_token}}&oauth_signature_method={{oauth_signature_method}}&oauth_signature={{oauth_signature}}&oauth_timestamp={{oauth_timestamp}}&oauth_nonce={{oauth_nonce}}&oauth_version={{oauth_version}}&oauth_verifier={{oauth_verifier}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/request_token?oauth_consumer_key={{oauth_consumer_key}}&oauth_token={{oauth_token}}&oauth_signature_method={{oauth_signature_method}}&oauth_signature={{oauth_signature}}&oauth_timestamp={{oauth_timestamp}}&oauth_nonce={{oauth_nonce}}&oauth_version={{oauth_version}}&oauth_verifier={{oauth_verifier}}",
 						"method": "POST",
 						"header": [
 							{
@@ -1963,7 +1963,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/authorize/{{request_token_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/authorize/{{request_token_id}}",
 						"method": "POST",
 						"header": [
 							{
@@ -1997,7 +1997,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/access_token?oauth_consumer_key={{oauth_consumer_key}}&oauth_token={{oauth_token}}&oauth_signature_method={{oauth_signature_method}}&oauth_signature={{oauth_signature}}&oauth_timestamp={{oauth_timestamp}}&oauth_nonce={{oauth_nonce}}&oauth_version={{oauth_version}}&oauth_verifier={{oauth_verifier}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-OAUTH1/access_token?oauth_consumer_key={{oauth_consumer_key}}&oauth_token={{oauth_token}}&oauth_signature_method={{oauth_signature_method}}&oauth_signature={{oauth_signature}}&oauth_timestamp={{oauth_timestamp}}&oauth_nonce={{oauth_nonce}}&oauth_version={{oauth_version}}&oauth_verifier={{oauth_verifier}}",
 						"method": "POST",
 						"header": [
 							{
@@ -2026,7 +2026,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2055,7 +2055,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2084,7 +2084,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens",
 						"method": "GET",
 						"header": [
 							{
@@ -2113,7 +2113,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}/roles",
 						"method": "GET",
 						"header": [
 							{
@@ -2142,7 +2142,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/users/{{user_id}}/OS-OAUTH1/access_tokens/{{access_token_id}}/roles/{{role_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2171,7 +2171,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens?oauth_consumer_key={{oauth_consumer_key}}&oauth_token={{oauth_token}}&oauth_signature_method={{oauth_signature_method}}&oauth_signature={{oauth_signature}}&oauth_timestamp={{oauth_timestamp}}&oauth_nonce={{oauth_nonce}}&oauth_version={{oauth_version}}&oauth_verifier={{oauth_verifier}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens?oauth_consumer_key={{oauth_consumer_key}}&oauth_token={{oauth_token}}&oauth_signature_method={{oauth_signature_method}}&oauth_signature={{oauth_signature}}&oauth_timestamp={{oauth_timestamp}}&oauth_nonce={{oauth_nonce}}&oauth_version={{oauth_version}}&oauth_verifier={{oauth_verifier}}",
 						"method": "POST",
 						"header": [
 							{
@@ -2191,7 +2191,7 @@
 				{
 					"name": "List revocation events copy",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-REVOKE/events",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-REVOKE/events",
 						"method": "GET",
 						"header": [
 							{
@@ -2217,7 +2217,7 @@
 				{
 					"name": "List revocation events",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-REVOKE/events",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-REVOKE/events",
 						"method": "GET",
 						"header": [
 							{
@@ -2252,7 +2252,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -2286,7 +2286,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/auth/tokens",
 						"method": "POST",
 						"header": [
 							{
@@ -2311,7 +2311,7 @@
 				{
 					"name": "List trusts",
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts",
 						"method": "GET",
 						"header": [
 							{
@@ -2340,7 +2340,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2369,7 +2369,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2398,7 +2398,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}/roles",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}/roles",
 						"method": "GET",
 						"header": [
 							{
@@ -2427,7 +2427,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}/roles/{{role_id}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -2456,7 +2456,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}/roles/{{role_id}}",
+						"url": "{{HOST}}:{{KEYSTONE_PORT}}/v3/OS-TRUST/trusts/{{trust_id}}/roles/{{role_id}}",
 						"method": "GET",
 						"header": [
 							{

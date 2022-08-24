@@ -23,7 +23,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}",
 						"method": "GET",
 						"header": [
 							{
@@ -57,7 +57,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}",
 						"method": "POST",
 						"header": [
 							{
@@ -91,7 +91,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -126,7 +126,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
 						"method": "GET",
 						"header": [
 							{
@@ -160,7 +160,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -194,7 +194,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
 						"method": "POST",
 						"header": [
 							{
@@ -228,7 +228,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -262,7 +262,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -293,7 +293,7 @@
 				{
 					"name": "List activated capabilities",
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/info",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/info",
 						"method": "GET",
 						"header": [
 							{
@@ -324,7 +324,7 @@
 				{
 					"name": "List endpoints",
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/endpoints",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/endpoints",
 						"method": "GET",
 						"header": [
 							{
@@ -364,7 +364,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
 						"method": "GET",
 						"header": [
 							{
@@ -393,7 +393,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -432,7 +432,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
 						"method": "COPY",
 						"header": [
 							{
@@ -466,7 +466,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -495,7 +495,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
 						"method": "HEAD",
 						"header": [
 							{
@@ -524,7 +524,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
+						"url": "{{HOST}}:{{OBJECT_STORE_PORT}}/v1/{{account}}/{{container}}/{{object}}",
 						"method": "POST",
 						"header": [
 							{

@@ -14,7 +14,7 @@
 				{
 					"name": "List All Major Versions",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/",
 						"method": "GET",
 						"header": [
 							{
@@ -34,7 +34,7 @@
 				{
 					"name": "Show Details of Specific API Version",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/",
 						"method": "GET",
 						"header": [
 							{
@@ -60,7 +60,7 @@
 				{
 					"name": "Create Assisted Volume Snapshots",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-assisted-volume-snapshots",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-assisted-volume-snapshots",
 						"method": "GET",
 						"header": [
 							{
@@ -89,7 +89,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-assisted-volume-snapshots/{{snapshot_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-assisted-volume-snapshots/{{snapshot_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -115,7 +115,7 @@
 				{
 					"name": "Get Availability Zone Information",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-availability-zone",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-availability-zone",
 						"method": "GET",
 						"header": [
 							{
@@ -135,7 +135,7 @@
 				{
 					"name": "Get Detailed Availability Zone Information",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-availability-zone/detail",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-availability-zone/detail",
 						"method": "GET",
 						"header": [
 							{
@@ -161,7 +161,7 @@
 				{
 					"name": "List Cells",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cells",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cells",
 						"method": "GET",
 						"header": [
 							{
@@ -181,7 +181,7 @@
 				{
 					"name": "Create Cell",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cells",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cells",
 						"method": "POST",
 						"header": [
 							{
@@ -207,7 +207,7 @@
 				{
 					"name": "List Cloudpipes",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cloudpipe",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cloudpipe",
 						"method": "GET",
 						"header": [
 							{
@@ -236,7 +236,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cloudpipe",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cloudpipe",
 						"method": "POST",
 						"header": [
 							{
@@ -270,7 +270,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cloudpipe/configure-project",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-cloudpipe/configure-project",
 						"method": "POST",
 						"header": [
 							{
@@ -301,7 +301,7 @@
 				{
 					"name": "List Compute Services",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services",
 						"method": "GET",
 						"header": [
 							{
@@ -330,7 +330,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/disable",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/disable",
 						"method": "PUT",
 						"header": [
 							{
@@ -364,7 +364,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/disable-log-reason",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/disable-log-reason",
 						"method": "PUT",
 						"header": [
 							{
@@ -398,7 +398,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/enable",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/enable",
 						"method": "PUT",
 						"header": [
 							{
@@ -432,7 +432,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/force-down",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/force-down",
 						"method": "PUT",
 						"header": [
 							{
@@ -466,7 +466,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/{{service_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-services/{{service_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -501,7 +501,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-external-events",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-external-events",
 						"method": "POST",
 						"header": [
 							{
@@ -532,7 +532,7 @@
 				{
 					"name": "List Flavors",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors",
 						"method": "GET",
 						"header": [
 							{
@@ -561,7 +561,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors",
 						"method": "POST",
 						"header": [
 							{
@@ -586,7 +586,7 @@
 				{
 					"name": "List Flavors With Details",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail",
 						"method": "GET",
 						"header": [
 							{
@@ -615,7 +615,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail/{{flavor_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail/{{flavor_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -644,7 +644,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail/{{flavor_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail/{{flavor_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -679,7 +679,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-flavor-access",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-flavor-access",
 						"method": "GET",
 						"header": [
 							{
@@ -708,7 +708,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -742,7 +742,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -782,7 +782,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs",
 						"method": "GET",
 						"header": [
 							{
@@ -811,7 +811,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs",
 						"method": "POST",
 						"header": [
 							{
@@ -845,7 +845,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs/{{flavor_extra_spec_key}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs/{{flavor_extra_spec_key}}",
 						"method": "GET",
 						"header": [
 							{
@@ -874,7 +874,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs/{{flavor_extra_spec_key}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs/{{flavor_extra_spec_key}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -908,7 +908,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs/{{flavor_extra_spec_key}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}/os-extra_specs/{{flavor_extra_spec_key}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -934,7 +934,7 @@
 				{
 					"name": "List Agent Builds",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents",
 						"method": "GET",
 						"header": [
 							{
@@ -963,7 +963,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents",
 						"method": "POST",
 						"header": [
 							{
@@ -997,7 +997,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents/{{agent_build_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents/{{agent_build_id}}",
 						"method": "POST",
 						"header": [
 							{
@@ -1031,7 +1031,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents/{{agent_build_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-agents/{{agent_build_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1057,7 +1057,7 @@
 				{
 					"name": "List Aggregates",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates",
 						"method": "GET",
 						"header": [
 							{
@@ -1086,7 +1086,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates",
 						"method": "POST",
 						"header": [
 							{
@@ -1120,7 +1120,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1149,7 +1149,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1183,7 +1183,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1212,7 +1212,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -1246,7 +1246,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -1280,7 +1280,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-aggregates/{{aggregate_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -1311,7 +1311,7 @@
 				{
 					"name": "List Hosts",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts",
 						"method": "GET",
 						"header": [
 							{
@@ -1340,7 +1340,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1369,7 +1369,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -1403,7 +1403,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}/reboot",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}/reboot",
 						"method": "GET",
 						"header": [
 							{
@@ -1432,7 +1432,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}/shutdown",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}/shutdown",
 						"method": "GET",
 						"header": [
 							{
@@ -1461,7 +1461,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}/startup",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hosts/{{host_name}}/startup",
 						"method": "GET",
 						"header": [
 							{
@@ -1487,7 +1487,7 @@
 				{
 					"name": "List Hypervisors",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors",
 						"method": "GET",
 						"header": [
 							{
@@ -1507,7 +1507,7 @@
 				{
 					"name": "List Hypervisors Details",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/detail",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/detail",
 						"method": "GET",
 						"header": [
 							{
@@ -1527,7 +1527,7 @@
 				{
 					"name": "Show Hypervisor Statistics",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/statistics",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/statistics",
 						"method": "GET",
 						"header": [
 							{
@@ -1556,7 +1556,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1585,7 +1585,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}/uptime",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}/uptime",
 						"method": "GET",
 						"header": [
 							{
@@ -1614,7 +1614,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}/search",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}/search",
 						"method": "GET",
 						"header": [
 							{
@@ -1643,7 +1643,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}/servers",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-hypervisors/{{hypervisor_id}}/servers",
 						"method": "GET",
 						"header": [
 							{
@@ -1669,7 +1669,7 @@
 				{
 					"name": "List Keypairs",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs",
 						"method": "GET",
 						"header": [
 							{
@@ -1698,7 +1698,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs",
 						"method": "POST",
 						"header": [
 							{
@@ -1732,7 +1732,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs/{{keypair_name}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs/{{keypair_name}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1761,7 +1761,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs/{{keypair_name}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-keypairs/{{keypair_name}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1787,7 +1787,7 @@
 				{
 					"name": "Show Rate And Absolute Limits",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/limits",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/limits",
 						"method": "GET",
 						"header": [
 							{
@@ -1813,7 +1813,7 @@
 				{
 					"name": "List Migrations",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-migrations",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-migrations",
 						"method": "GET",
 						"header": [
 							{
@@ -1848,7 +1848,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-server-password",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-server-password",
 						"method": "GET",
 						"header": [
 							{
@@ -1877,7 +1877,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface",
 						"method": "POST",
 						"header": [
 							{
@@ -1911,7 +1911,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface/{{port_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface/{{port_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -1940,7 +1940,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface/{{port_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface/{{port_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -1975,7 +1975,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2004,7 +2004,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2038,7 +2038,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2067,7 +2067,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}/defaults",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}/defaults",
 						"method": "GET",
 						"header": [
 							{
@@ -2096,7 +2096,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}/detail",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-quota-sets/{{tenant_id}}/detail",
 						"method": "GET",
 						"header": [
 							{
@@ -2131,7 +2131,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles",
 						"method": "GET",
 						"header": [
 							{
@@ -2160,7 +2160,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles",
 						"method": "POST",
 						"header": [
 							{
@@ -2189,7 +2189,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles/{{console_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles/{{console_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2218,7 +2218,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles/{{console_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/consoles/{{console_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2247,7 +2247,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-console-auth-token",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-console-auth-token",
 						"method": "GET",
 						"header": [
 							{
@@ -2273,7 +2273,7 @@
 				{
 					"name": "List Server Groups",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups",
 						"method": "GET",
 						"header": [
 							{
@@ -2302,7 +2302,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups",
 						"method": "POST",
 						"header": [
 							{
@@ -2336,7 +2336,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups/{[server_group_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups/{[server_group_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2365,7 +2365,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups/{[server_group_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-server-groups/{[server_group_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2400,7 +2400,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata",
 						"method": "GET",
 						"header": [
 							{
@@ -2429,7 +2429,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata",
 						"method": "POST",
 						"header": [
 							{
@@ -2463,7 +2463,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata",
 						"method": "PUT",
 						"header": [
 							{
@@ -2497,7 +2497,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata/{{key}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata/{{key}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2526,7 +2526,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata/{{key}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata/{{key}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2560,7 +2560,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata/{{key}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/metadata/{{key}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2595,7 +2595,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags",
 						"method": "GET",
 						"header": [
 							{
@@ -2624,7 +2624,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags",
 						"method": "PUT",
 						"header": [
 							{
@@ -2658,7 +2658,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2687,7 +2687,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags/{{tag}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags/{{tag}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2716,7 +2716,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags/{{tag}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags/{{tag}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -2745,7 +2745,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags/{{tag}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/tags/{{tag}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -2771,7 +2771,7 @@
 				{
 					"name": "List Server Usage Audits For An Tenant",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-instance_usage_audit_log",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-instance_usage_audit_log",
 						"method": "GET",
 						"header": [
 							{
@@ -2800,7 +2800,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-instance_usage_audit_log/{{before_timestamp}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-instance_usage_audit_log/{{before_timestamp}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2826,7 +2826,7 @@
 				{
 					"name": " List Servers",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers",
 						"method": "GET",
 						"header": [
 							{
@@ -2855,7 +2855,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers",
 						"method": "POST",
 						"header": [
 							{
@@ -2889,7 +2889,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers",
 						"method": "POST",
 						"header": [
 							{
@@ -2914,7 +2914,7 @@
 				{
 					"name": " List Servers Detailed",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/detail",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/detail",
 						"method": "GET",
 						"header": [
 							{
@@ -2943,7 +2943,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -2972,7 +2972,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -3006,7 +3006,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -3041,7 +3041,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3075,7 +3075,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3109,7 +3109,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3143,7 +3143,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3177,7 +3177,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3211,7 +3211,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3245,7 +3245,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3279,7 +3279,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3313,7 +3313,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3347,7 +3347,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3381,7 +3381,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3415,7 +3415,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3449,7 +3449,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3483,7 +3483,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3517,7 +3517,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3551,7 +3551,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3585,7 +3585,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3619,7 +3619,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3653,7 +3653,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3687,7 +3687,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3721,7 +3721,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3755,7 +3755,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3789,7 +3789,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3823,7 +3823,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3857,7 +3857,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3891,7 +3891,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3925,7 +3925,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3959,7 +3959,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -3993,7 +3993,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4027,7 +4027,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4061,7 +4061,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4095,7 +4095,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4129,7 +4129,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4163,7 +4163,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4203,7 +4203,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4237,7 +4237,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4271,7 +4271,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4305,7 +4305,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4339,7 +4339,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4373,7 +4373,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/action",
 						"method": "POST",
 						"header": [
 							{
@@ -4413,7 +4413,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/ips",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/ips",
 						"method": "GET",
 						"header": [
 							{
@@ -4442,7 +4442,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/ips/{{network_label}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/ips/{{network_label}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4477,7 +4477,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-security-groups",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-security-groups",
 						"method": "GET",
 						"header": [
 							{
@@ -4512,7 +4512,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-instance-actions",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-instance-actions",
 						"method": "GET",
 						"header": [
 							{
@@ -4541,7 +4541,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-instance-actions/{{request_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-instance-actions/{{request_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4576,7 +4576,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/diagnostics",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/diagnostics",
 						"method": "GET",
 						"header": [
 							{
@@ -4611,7 +4611,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface",
 						"method": "GET",
 						"header": [
 							{
@@ -4640,7 +4640,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-interface",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4675,7 +4675,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-virtual-interfaces",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-virtual-interfaces",
 						"method": "GET",
 						"header": [
 							{
@@ -4710,7 +4710,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments",
 						"method": "GET",
 						"header": [
 							{
@@ -4739,7 +4739,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments",
 						"method": "POST",
 						"header": [
 							{
@@ -4773,7 +4773,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments/{{attachment_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments/{{attachment_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -4802,7 +4802,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments/{{attachment_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments/{{attachment_id}}",
 						"method": "PUT",
 						"header": [
 							{
@@ -4836,7 +4836,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments/{{attachment_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/servers/{{server_id}}/os-volume_attachments/{{attachment_id}}",
 						"method": "DELETE",
 						"header": [
 							{
@@ -4862,7 +4862,7 @@
 				{
 					"name": "List Tenant Usage For All Tenants",
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-simple-tenant-usage",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-simple-tenant-usage",
 						"method": "GET",
 						"header": [
 							{
@@ -4891,7 +4891,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-simple-tenant-usage/{{tenant_id}}",
+						"url": "{{HOST}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/os-simple-tenant-usage/{{tenant_id}}",
 						"method": "GET",
 						"header": [
 							{
